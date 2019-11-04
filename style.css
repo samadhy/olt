@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+    font-weight: normal;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+
+
+a {
+  color: #000; }
+
+h1 {
+  font-size: 30px;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+section {
+  padding: 20px 10px; }
+
+header .top {
+  background-color: #ff9c00;
+  font-size: 20px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  header .top .gam {
+    position: relative;
+    width: 22px;
+    padding: 2px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    header .top .gam span {
+      height: 2px;
+      width: 100%;
+      background-color: #fff; }
+  header .top .title {
+    text-transform: uppercase; }
+  header .top .video .relation {
+    position: relative; }
+    header .top .video .relation .ratio {
+      padding-top: 36,6%;
+      height: 0; }
+    header .top .video .relation iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%; }
+
+section.about {
+  padding: 20px 15px; }
+  section.about .stars {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    section.about .stars .star {
+      padding-right: 7px; }
+  section.about .descr {
+    font-size: 15px; }
+    section.about .descr .address {
+      margin-bottom: 3px; }
+    section.about .descr p {
+      margin-bottom: 16px; }
+      section.about .descr p span {
+        text-decoration: underline; }
+    section.about .descr h3 {
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 15px; }
+    section.about .descr .rating {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      section.about .descr .rating span {
+        text-decoration: none; }
+    section.about .descr .rating-inner {
+      color: #9ccc00;
+      font-size: 44px;
+      font-weight: bold;
+      padding-right: 23px; }
+    section.about .descr .link a {
+      color: #000;
+      font-weight: bold;
+      margin-right: 8px; }
+
+section.tours {
+  background-color: #fcbd5c; }
+  section.tours h2 {
+    margin-bottom: 15px; }
+  section.tours .tb-line {
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fdf9ee;
+    padding: 10px 8px;
+    margin-bottom: 5px; }
+    section.tours .tb-line span:first-child {
+      width: 45%;
+      text-transform: uppercase; }
+    section.tours .tb-line span:last-child {
+      width: 55%;
+      text-decoration: underline; }
+  section.tours a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #6481c5;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+section.tickets {
+  padding: 0; }
+  section.tickets .ticket > div {
+    padding: 10px; }
+  section.tickets .ticket .roundtrip {
+    background-color: #fff;
+    padding: 29px 10px; }
+   
+  
+
+
+
+section.about-hotel h2 {
+  margin-bottom: 16px; }
+
+section.about-hotel h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 16px; }
+
+section.about-hotel p {
+  margin-bottom: 16px; }
+  section.about-hotel p span {
+    font-weight: bold; }
+
+section.about-hotel p:last-child {
+  margin-bottom: 0; }
+
+section.reviews {
+  background-color: #f1f1f1;
+  padding: 0 0 30px 0; }
+  section.reviews h2 {
+    font-size: 24px;
+    margin-bottom: 14px;
+    padding: 20px 10px 0; }
+  section.reviews > a {
+    display: inline-block;
+    background-color: #ff9c00;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 23px;
+    margin-bottom: 10px;
+    margin-left: 10px; }
+  section.reviews .review {
+    border: 2px solid #ff9c00;
+    background-color: #fff;
+    font-size: 18px; }
+    section.reviews .review .review-head {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-color: #fef7e5; }
+      section.reviews .review .review-head div {
+        padding: 10px; }
+      section.reviews .review .review-head .olt {
+        background-color: #fff; }
+    section.reviews .review .review-el {
+      padding: 16px 10px; }
+      section.reviews .review .review-el p span {
+        color: #ff9d00;
+        font-weight: bold; }
+      section.reviews .review .review-el .rating {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        font-size: 14px;
+        padding: 10px 0; }
+        section.reviews .review .review-el .rating div {
+          width: 50%; }
+          section.reviews .review .review-el .rating div span {
+            font-weight: bold; }
+      section.reviews .review .review-el .text {
+        font-size: 15px;
+        margin-bottom: 5px; }
+        section.reviews .review .review-el .text span {
+          color: #000; }
+      section.reviews .review .review-el a {
+        font-size: 15px; }
+
+section.type-room {
+  padding: 20px 0 0; }
+  section.type-room h2 {
+    padding: 0 10px 20px; }
+  section.type-room .room {
+    background-color: #ffecce;
+    padding: 15px 10px; }
+   
+
+
+
+section.blue {
+  background-color: #d8f4ff; }
+  section.blue p {
+    font-size: 15px;
+    margin-bottom: 5px; }
+    section.blue p span {
+      font-weight: bold; }
+  section.blue h2:first-child {
+    padding-top: 0; }
+  section.blue h2 {
+    padding: 20px 0; }
+  section.blue .archive {
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 20px 0 0; }
+  section.blue p.review {
+    margin-top: 20px; }
+
+section.similar h2 {
+  padding-bottom: 20px; }
+
+section.similar p.title {
+  margin: 20px 0;
+  font-size: 24px;
+  text-transform: uppercase; }
+
+section.similar a {
+  background-color: #ff9c00;
+  display: inline-block;
+  padding: 10px 23px;
+  color: #fff;
+  text-decoration: none; }
+
+section.similar .slick-prev, section.similar .slick-prev:hover, section.similar .slick-prev:focus {
+  left: -1px;
+  top: 50%;
+  -webkit-transform: translateY(-150%);
+  -ms-transform: translateY(-150%);
+  transform: translateY(-150%);
+  background: #fff;
+  background-image: url("../img/prev.png");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+section.similar .slick-next, section.similar .slick-next:hover, section.similar .slick-next:focus {
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-150%);
+  -ms-transform: translateY(-150%);
+  transform: translateY(-150%);
+  background: #fff;
+  background-image: url("../img/next.png");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+footer .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  padding: 45px 10px 0; }
+  footer .buttons a {
+    padding: 7px 20px;
+    border: 1px solid #ff9c00;
+    color: #ff9c00;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 3px; }
+
+footer .partners {
+  padding: 20px 10px; }
+  footer .partners .line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  footer .partners .line:last-child {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    margin-top: 10px; }
+    footer .partners .line:last-child > div:last-child {
+      margin-left: 17px; }
+
+footer .about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: #3e3e3e;
+  padding: 17px 12px; }
+  footer .about-us .child {
+    width: 50%; }
+    footer .about-us .child a {
+      text-decoration: none;
+      color: #8b8b8b; }
+  footer .about-us .child:last-child {
+    width: 100%;
+    margin-top: 25px; }
